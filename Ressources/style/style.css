@@ -1,0 +1,244 @@
+/* ---------- COLORS ---------- */
+/* ---------- TYPOS ---------- */
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap");
+@font-face {
+  font-family: 'HK Grotesk';
+  src: url("../font/hk-grotesk.regular.otf") format("otf");
+}
+
+p,
+body {
+  font-family: "Poppins", sans-serif;
+  font-weight: 400;
+}
+
+input {
+  font-size: 14px;
+}
+
+h1,
+h2,
+h3,
+h4,
+.btn {
+  font-family: "Poppins", sans-serif;
+  font-weight: 700;
+}
+
+h2 {
+  font-size: 24px;
+  text-align: center;
+}
+
+/* ---------- GLOBAL VARS ---------- */
+/* ---------- GLOBAL ---------- */
+*,
+body {
+  scroll-behavior: smooth;
+}
+
+.btn {
+  background-color: #BA5282;
+  color: white;
+  width: -webkit-fit-content;
+  width: -moz-fit-content;
+  width: fit-content;
+  padding: 15px 25px;
+  margin: 0 auto;
+  white-space: nowrap;
+  border-radius: 10px;
+  text-decoration: none;
+  text-align: center;
+  -webkit-box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 12px;
+          box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 12px;
+}
+
+section {
+  padding: 50px 30px;
+}
+
+.img_centered {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin: 3em auto;
+  width: 50%;
+}
+
+/* ---------- HEADER & FOOTER ---------- */
+header {
+  background-color: #164194;
+  width: 100%;
+  background-color: #114294;
+  position: fixed;
+  left: 0;
+  top: 0;
+  z-index: 99999;
+}
+
+header .header__wrap {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+header .logo {
+  width: 175px;
+}
+
+footer {
+  background-color: #164194;
+  width: 100%;
+  background-color: #114294;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+footer .logo {
+  width: 125px;
+}
+
+/* ---------- SECTION LANDING ---------- */
+.landing {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.landing .logo {
+  width: 90%;
+}
+
+.landing__column {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+.landing__text {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+  margin: 0 20px 0 0;
+}
+
+/* ---------- SECTION COMMENT CA MARCHE ---------- */
+.comment_ca_marche {
+  background-color: #F6F0C0;
+}
+
+.map {
+  background-color: #C0DACD;
+}
+
+/* ---------- SECTION TROUVE TON MAGASIN ---------- */
+section.map {
+  padding-right: unset;
+  padding-left: unset;
+}
+
+section.map input[type=search] {
+  padding: 10px 30px 10px 50px;
+  width: 100%;
+  border: unset;
+  border-radius: 10px;
+  -webkit-box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+          box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+
+section.map #map {
+  margin: 40px 0;
+  height: 524px;
+}
+
+section.map span {
+  background: url("https://img.icons8.com/material-outlined/24/000000/search--v1.png");
+  width: 24px;
+  display: block;
+  height: 24px;
+  position: absolute;
+  margin-left: 15px;
+  opacity: 0.6;
+}
+
+section.map .search {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin: 20px 30px;
+  position: relative;
+}
+
+section.map .btn {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  margin-top: 40px;
+}
+
+/* ---------- SECTION CEST POSSIBLE GRACE A EUX ---------- */
+.possible {
+  background-color: #F6F0C0;
+}
+
+.possible p {
+  margin: 40px 0;
+}
+
+.possible .splide__arrows,
+.possible .splide__pagination {
+  display: none;
+}
+
+.possible .splide__slide {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  height: 200px;
+}
+
+.possible .splide__slide img {
+  border-radius: 10px;
+}
+
+/* ---------- SECTION PROCHAINE BOX ---------- */
+.prochaine_box h2 {
+  margin-bottom: 40px;
+}
+
+/* ---------- BREAKPOINTS ---------- */
+/*# sourceMappingURL=style.css.map */
